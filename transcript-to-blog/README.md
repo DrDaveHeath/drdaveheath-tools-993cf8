@@ -43,7 +43,7 @@ Once it is set up, just ask in plain language. For example:
 - "Blog the latest transcript."
 - "Turn this transcript into a blog post." (then paste it)
 
-It picks the right style for the post, writes it in your voice, and saves both a markdown version and a plain-text version to your destination folder. Then it tells you the title and where it saved it. (There is also a command, `/transcript-to-blog:blog-this`, if you would rather type one.)
+It picks the right style for the post, writes it in your voice, and saves both a markdown version and a plain-text version to your destination folder. Each one ends with a short publishing pack (SEO title, meta description, URL slug, tags) ready to drop straight into Squarespace's own fields. Then it tells you the title and where it saved it. (There is also a command, `/transcript-to-blog:blog-this`, if you would rather type one.)
 
 ## A couple of things to know
 
