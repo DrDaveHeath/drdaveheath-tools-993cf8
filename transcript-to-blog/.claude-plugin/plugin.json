@@ -1,0 +1,15 @@
+{
+  "name": "transcript-to-blog",
+  "displayName": "Transcript to Blog",
+  "description": "Turn a video transcript into a publish-ready blog post in your voice, saved to Google Drive.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Dr Dave Heath",
+    "email": "hello@drdaveheath.com"
+  },
+  "homepage": "https://drdaveheath.com",
+  "license": "MIT",
+  "keywords": ["blog", "transcript", "content", "google-drive", "voice"],
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "drdaveheath-tools",
+  "owner": {
+    "name": "Dr Dave Heath",
+    "email": "hello@drdaveheath.com"
+  },
+  "description": "AI tools by Dr Dave Heath.",
+  "plugins": [
+    {
+      "name": "transcript-to-blog",
+      "source": "./transcript-to-blog",
+      "description": "Turn a video transcript into a publish-ready blog post in your voice, saved to Google Drive.",
+      "version": "0.1.0"
+    }
+  ]
+}
