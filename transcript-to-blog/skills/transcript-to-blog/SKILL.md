@@ -20,7 +20,7 @@ Look for the saved configuration: whether Google Drive is connected, the **sourc
 
 If the config is complete and Drive is connected, go straight to **Normal run**. If anything is missing, run **First-run setup**.
 
-Also run **First-run setup** whenever she explicitly asks to set up or reconfigure (for example she runs `/blog-setup`, or says "set me up" or "change my folders"), even if a config already exists. In that case, treat her answers as updates and save over the old config.
+Also run **First-run setup** whenever she explicitly asks to set up or reconfigure (for example she says "set up Transcript to Blog", "set me up" or "change my folders", or runs `/transcript-to-blog:blog-setup`), even if a config already exists. In that case, treat her answers as updates and save over the old config.
 
 ### First-run setup (when the config is missing, or when she asks to set up or reconfigure)
 Open warmly: tell her you will get her set up in about a minute, then run these steps as a guided wizard.

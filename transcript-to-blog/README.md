@@ -22,10 +22,10 @@ Then install **Transcript to Blog** from the list. Either route gets you to exac
 
 ## Step 2 — Set up your folders (one time)
 
-Type:
+Just tell it to set you up. Type, in plain words:
 
 ```
-/blog-setup
+Set up Transcript to Blog
 ```
 
 It runs a short guided setup, about a minute, and asks you three things:
@@ -34,7 +34,7 @@ It runs a short guided setup, about a minute, and asks you three things:
 2. Which Drive folder your transcripts live in (the source).
 3. Which folder finished blogs should be saved to (the destination).
 
-It remembers all of this, so you only ever do it once. If you move your folders later, just run `/blog-setup` again.
+It remembers all of this, so you only ever do it once. If you move your folders later, just say "set up Transcript to Blog again". (If you prefer a command, the same thing runs with `/transcript-to-blog:blog-setup`.)
 
 ## Everyday use
 
@@ -42,9 +42,8 @@ Once it is set up, just ask in plain language. For example:
 
 - "Blog the latest transcript."
 - "Turn this transcript into a blog post." (then paste it)
-- `/blog-this`
 
-It picks the right style for the post, writes it in your voice, and saves both a markdown version and a plain-text version to your destination folder. Then it tells you the title and where it saved it.
+It picks the right style for the post, writes it in your voice, and saves both a markdown version and a plain-text version to your destination folder. Then it tells you the title and where it saved it. (There is also a command, `/transcript-to-blog:blog-this`, if you would rather type one.)
 
 ## A couple of things to know
 
