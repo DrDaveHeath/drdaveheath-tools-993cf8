@@ -32,13 +32,17 @@ Open warmly: tell her you will get her set up in about a minute, then run these 
 6. Confirm setup is done in one line. If she has already given you a transcript, continue to a normal run.
 
 ### Normal run
+
+Talk her through it as you go, white-glove style: one short, warm line at each step so she always knows what is happening, the way a capable assistant would narrate. Keep each line brief, never a progress bar and never over-explained. The four moments below each get a line.
+
 1. **Get the transcript.** She will either paste it, name a file, or ask for the latest in the source folder. If she says "the latest" or similar, list the source folder and take the most recent transcript file. Only process what she asks for, never auto-process every file in the folder.
-2. **Generate the blog.** Load and follow the bundled voice files:
+   - Tell her what you picked up, by name: e.g. "Got it, I've grabbed your most recent transcript, *[file name]* from *[date]*." If she pasted or named one, acknowledge that instead.
+2. **Generate the blog.** First, tell her you are on it: e.g. "Writing it up in your voice now, give me a moment." Then load and follow the bundled voice files:
    - `${CLAUDE_PLUGIN_ROOT}/voice/blog-generation-prompt.md` — the operating instructions. Follow them exactly.
    - `${CLAUDE_PLUGIN_ROOT}/voice/brand-voice.md` — the full voice profile, for reference.
    Re-compose from the transcript, do not clean it up. Pick the archetype (personal story, industry commentary, or how-to) from the transcript's content. Write a fresh sensory hook, cut the tangents and side-stories, strip the spoken filler, keep her mechanics (caps, em dashes, ellipses, emoji), and land the emotional double close. Produce both a markdown version and a plain-text version.
 3. **Save to Drive.** Write the blog to the destination folder in markdown and plain text, using the naming convention.
-4. **Hand it back.** Tell her the blog title, the folder it is saved in, and remind her it is ready for a light edit and paste into Squarespace. (Squarespace cannot be published to automatically, so the paste stays a manual step.)
+4. **Hand it back.** Give her a warm, confident close in a line or two: the blog title, a clickable link to the saved file (and note both the markdown and plain-text versions are in the destination folder), and a reminder that it is ready for a light edit and a paste into Squarespace. Where it adds a touch without over-explaining, you can name the archetype you chose in a few words (e.g. "I wrote this as a how-to"). Squarespace cannot be published to automatically, so the paste stays a manual step.
 
 ## Standing rules
 - She blogs before the video is published on YouTube, so the transcript always comes from Google Drive, never from YouTube.
