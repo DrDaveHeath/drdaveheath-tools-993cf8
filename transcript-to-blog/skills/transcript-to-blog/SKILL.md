@@ -1,5 +1,5 @@
 ---
-description: Turn a video transcript into a finished blog post in Gillian's voice and save it to Google Drive. On first use it runs a short setup (connect Drive, pick the source and destination folders), then runs frictionlessly: transcript in, blog out.
+description: Turn a video or YouTube transcript into a finished, publish-ready blog post in Gillian's voice and save it to Google Drive. Use whenever she wants to blog a transcript, write up or repurpose a transcript, draft a blog post from a recording or video, or turn a talk into a written post. Also handles the one-time setup (connect Google Drive, choose the source and destination folders) when she asks to set up, configure, or change her blog folders. Transcript in, blog out.
 ---
 
 # Transcript to Blog
