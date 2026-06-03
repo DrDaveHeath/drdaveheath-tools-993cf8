@@ -12,10 +12,10 @@ The quickest way: paste these three lines into co-work, one at a time.
 /reload-plugins
 ```
 
-Prefer clicking to typing? Type `/plugin` and open the plugins menu, choose **Add marketplace**, and paste this same line when it asks for the source:
+Prefer clicking to typing? Type `/plugin`, open the plugins menu, choose **Add marketplace**, and paste this link when it asks for the source:
 
 ```
-DrDaveHeath/drdaveheath-tools-993cf8
+https://github.com/DrDaveHeath/drdaveheath-tools-993cf8
 ```
 
 Then install **Transcript to Blog** from the list. Either route gets you to exactly the same place, so use whichever feels easier.
