@@ -20,7 +20,9 @@ Look for the saved configuration: whether Google Drive is connected, the **sourc
 
 If the config is complete and Drive is connected, go straight to **Normal run**. If anything is missing, run **First-run setup**.
 
-### First-run setup (only when the config is missing)
+Also run **First-run setup** whenever she explicitly asks to set up or reconfigure (for example she runs `/blog-setup`, or says "set me up" or "change my folders"), even if a config already exists. In that case, treat her answers as updates and save over the old config.
+
+### First-run setup (when the config is missing, or when she asks to set up or reconfigure)
 Open warmly: tell her you will get her set up in about a minute, then run these steps as a guided wizard.
 1. **Get Google Drive connected.** Check whether the Google Drive connector is available and authorised. If it is, say so and move on. If it is not, surface the connection for her directly in the thread (trigger the connect action / button) so she can authorise it in one click. Only if you cannot surface it directly, fall back to a single friendly line pointing her to co-work's connector settings. Wait until Drive is connected before continuing.
 2. **Source folder.** Ask which Drive folder her transcripts live in. She works pre-publish, so the transcript sits in Drive before the video goes live on YouTube. Confirm by listing a file or two from that folder.

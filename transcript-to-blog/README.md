@@ -1,43 +1,50 @@
 # Transcript to Blog
 
-Turns one of your video transcripts into a finished blog post in your voice, and saves it straight to Google Drive. You give it a transcript, it gives you a blog that needs only a light edit before it goes into Squarespace.
+Turns one of your video transcripts into a finished blog post in your voice, and saves it straight to Google Drive. You give it a transcript, it gives you a blog that needs only a light edit before it goes into Squarespace. It reads the transcript from Drive, so you can do this before the video is even live on YouTube.
 
-## Install (one time)
+## Step 1 — Install it (one time)
 
-In co-work:
+The quickest way: paste these three lines into co-work, one at a time.
 
-1. Add the plugin source:
-   ```
-   /plugin marketplace add https://drdaveheath.com/<your-link>
-   ```
-2. Install it:
-   ```
-   /plugin install transcript-to-blog
-   ```
-3. Reload:
-   ```
-   /reload-plugins
-   ```
+```
+/plugin marketplace add DrDaveHeath/drdaveheath-tools-993cf8
+/plugin install transcript-to-blog
+/reload-plugins
+```
 
-## First run (one time)
+Prefer clicking to typing? Type `/plugin` and open the plugins menu, choose **Add marketplace**, and paste this same line when it asks for the source:
 
-The first time you use it, it will ask you a couple of quick questions:
+```
+DrDaveHeath/drdaveheath-tools-993cf8
+```
 
-1. To connect Google Drive, if it is not already connected. One click.
-2. Which Drive folder your transcripts live in (the source folder).
-3. Which folder finished blogs should be saved to (the destination folder).
+Then install **Transcript to Blog** from the list. Either route gets you to exactly the same place, so use whichever feels easier.
 
-It remembers all of this, so you only do it once.
+## Step 2 — Set up your folders (one time)
+
+Type:
+
+```
+/blog-setup
+```
+
+It runs a short guided setup, about a minute, and asks you three things:
+
+1. To connect your Google Drive, if it is not already connected. One click.
+2. Which Drive folder your transcripts live in (the source).
+3. Which folder finished blogs should be saved to (the destination).
+
+It remembers all of this, so you only ever do it once. If you move your folders later, just run `/blog-setup` again.
 
 ## Everyday use
 
-Just ask, in plain language. For example:
+Once it is set up, just ask in plain language. For example:
 
 - "Blog the latest transcript."
 - "Turn this transcript into a blog post." (then paste it)
-- "/blog-this"
+- `/blog-this`
 
-It will pick the right style for the post, write it in your voice, and save both a markdown and a plain-text version to your destination folder. Then it tells you the title and where it saved it.
+It picks the right style for the post, writes it in your voice, and saves both a markdown version and a plain-text version to your destination folder. Then it tells you the title and where it saved it.
 
 ## A couple of things to know
 
